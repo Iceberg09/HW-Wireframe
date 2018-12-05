@@ -1,0 +1,92 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body, div.article{
+    background-color: rgb(90, 90, 90);
+}
+
+div.container{
+    width: 80%;
+    margin-left: 10%;
+}
+
+div{
+    text-align: center;
+}
+
+div.header, div.nav{
+    height: 100px;   
+    margin-top: 10px;
+}
+
+div.header, div.nav, div.section, div.aside, div.footer, div.inside1, div.inside2{
+    background-color:rgba(238, 235, 235, 0.918);
+}
+
+div.middle, div.footer{
+    margin-top: 20px;
+}
+
+div.section, div.aside{
+    height: 300px;
+}
+
+div.section{
+    float: left;
+    width: 54%;
+    margin-right: 2%;
+}
+div.aside{
+    float: right;
+    width: 44%;
+}
+
+div.article{
+    margin: 10px;
+    height: 220px;
+}
+
+div.inside1, div.inside2{
+    margin: 10px;
+    height: 60px;
+}
+
+p{
+    font-size: 24px;
+}
+
+p.header, p.nav, p.section, p.aside, p.footer, p.inside1, p.inside2{
+    color:rgb(90, 90, 90);
+}
+
+p.header, p.nav, p.footer{
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+p.section, p.aside{
+    line-height:50px;
+}
+
+p.article{
+    color: rgba(238, 235, 235, 0.918);
+    line-height: 50px;
+}
+
+p.inside1, p.inside2{
+    line-height: 55px;
+}
+
+p.inside1{
+    font-weight: 600;
+}
